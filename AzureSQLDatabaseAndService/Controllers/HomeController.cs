@@ -16,6 +16,7 @@ namespace AzureSQLDatabaseAndService.Controllers
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
+            // Added GitHub Comment#1 // Added GitHub Comment#4
             // Added GitHub Comment#1 //// Added GitHub Comment#3
             return View();
         }
