@@ -24,8 +24,11 @@ namespace AzureSQLDatabaseAndService.Controllers
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
+<<<<<<< HEAD
             // Added GitHub Comment#2 // Added GitHub Comment#5
+=======
              // Added GitHub Comment#2 // Added GitHub Comment#6
+>>>>>>> 16c3054a4ea1e7dc4d96f050774eb1181a21c983
             return View();
         }
     }
