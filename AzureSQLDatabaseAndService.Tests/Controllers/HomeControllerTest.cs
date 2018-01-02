@@ -9,6 +9,9 @@ using AzureSQLDatabaseAndService.Controllers;
 
 namespace AzureSQLDatabaseAndService.Tests.Controllers
 {
+    /// <summary>
+    /// This is an auto generated test class
+    /// </summary>
     [TestClass]
     public class HomeControllerTest
     {
