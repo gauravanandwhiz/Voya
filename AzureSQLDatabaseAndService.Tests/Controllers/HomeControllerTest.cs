@@ -39,6 +39,8 @@ namespace AzureSQLDatabaseAndService.Tests.Controllers
 
             // Assert
             Assert.AreEqual("Your application description page.", result.ViewBag.Message);
+
+            //This methos seems to tbe auto generted by Visual Studio Enterprize
         }
 
         [TestMethod]
