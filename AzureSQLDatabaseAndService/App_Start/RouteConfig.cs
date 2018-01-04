@@ -16,8 +16,9 @@ namespace AzureSQLDatabaseAndService
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional } /* Local Comment#1 */ /* Remote Comment#2 */
+                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional } /* Local Comment#1 */ /* Remote Comment#2 */
                  /*The remote routing comment is here*/
+                /*The local routing comment is here*/
 
             );
         }

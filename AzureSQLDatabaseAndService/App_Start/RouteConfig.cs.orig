@@ -17,10 +17,13 @@ namespace AzureSQLDatabaseAndService
                 name: "Default",
                 url: "{controller}/{action}/{id}",
 <<<<<<< HEAD
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional } /* Remote Comment#2 */
-=======
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional } /* Local Comment#1 */
->>>>>>> Release-1.1
+                /*The local routing comment is here*/
+=======
+                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional } /* Local Comment#1 */ /* Remote Comment#2 */
+                 /*The remote routing comment is here*/
+
+>>>>>>> 59331748e636705c480c1127c8d6323f5c3734b0
             );
         }
     }
