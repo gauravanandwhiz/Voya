@@ -9,6 +9,9 @@ using AzureSQLDatabaseAndService.Controllers;
 
 namespace AzureSQLDatabaseAndService.Tests.Controllers
 {
+    /// <summary>
+    /// This is an auto generated test class
+    /// </summary>
     [TestClass]
     public class HomeControllerTest
     {
@@ -36,6 +39,8 @@ namespace AzureSQLDatabaseAndService.Tests.Controllers
 
             // Assert
             Assert.AreEqual("Your application description page.", result.ViewBag.Message);
+
+            //This methos seems to tbe auto generted by Visual Studio Enterprize
         }
 
         [TestMethod]
