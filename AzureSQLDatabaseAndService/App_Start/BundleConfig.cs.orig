@@ -18,8 +18,11 @@ namespace AzureSQLDatabaseAndService
             // ready for production, use the build tool at https://modernizr.com to pick only the tests you need.
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
                         "~/Scripts/modernizr-*"));
-            //Local Comment#2
+<<<<<<< HEAD
             //Remote Comment#1 
+=======
+            //Local Comment#2
+>>>>>>> Release-1.1
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
                       "~/Scripts/bootstrap.js",
                       "~/Scripts/respond.js"));
