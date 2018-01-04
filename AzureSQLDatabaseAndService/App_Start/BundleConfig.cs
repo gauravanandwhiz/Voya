@@ -12,7 +12,7 @@ namespace AzureSQLDatabaseAndService
                         "~/Scripts/jquery-{version}.js")); //Comment for Pull Request and Code Review#1  //Comment for Pull Request and Code Review#2
 
             bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
-                        "~/Scripts/jquery.validate*"));
+                        "~/Scripts/jquery.validate*")); //Comment for Pull Request and Code Review#3
 
             // Use the development version of Modernizr to develop with and learn from. Then, when you're
             // ready for production, use the build tool at https://modernizr.com to pick only the tests you need.
