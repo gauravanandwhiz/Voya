@@ -26,7 +26,7 @@ namespace AzureSQLDatabaseAndService
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
-                      "~/Content/site.css")); //Modifying to know if, the change gets reflected in both branches
+                      "~/Content/site.css")); //Modifying to know if, the change gets reflected in both branches // Another Comment for review
         }
     }
 }
