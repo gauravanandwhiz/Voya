@@ -11,7 +11,7 @@ namespace AzureSQLDatabaseAndService
         /// <param name="filters"></param>
         public static void RegisterGlobalFilters(GlobalFilterCollection filters)
         {
-            filters.Add(new HandleErrorAttribute()); // Added Comment#1
+            filters.Add(new HandleErrorAttribute()); // Added Comment#1 // Added Comment#2
         }
     }
 }
