@@ -10,7 +10,7 @@ namespace AzureSQLDatabaseAndService.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            return View(); //Can we Push in INdividial Commits#3
         }
 
         public ActionResult About()
