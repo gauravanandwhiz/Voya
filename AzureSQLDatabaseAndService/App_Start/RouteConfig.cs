@@ -12,7 +12,7 @@ namespace AzureSQLDatabaseAndService
         public static void RegisterRoutes(RouteCollection routes)
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
-
+            //Can we Push in INdividial Commits#1
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",

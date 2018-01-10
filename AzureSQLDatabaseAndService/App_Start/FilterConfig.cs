@@ -12,6 +12,7 @@ namespace AzureSQLDatabaseAndService
         public static void RegisterGlobalFilters(GlobalFilterCollection filters)
         {
             filters.Add(new HandleErrorAttribute()); // Added Comment#1 // Added Comment#2 //// Added Comment#3
+            //Can we Push in INdividial Commits#2
         }
     }
 }
