@@ -7,5 +7,6 @@ namespace AzureSQLDatabaseAndService.App_Start
 {
     public class Class1
     {
+        //Comment#2 remote
     }
 }
