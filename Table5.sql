@@ -4,7 +4,7 @@
 --------------------------------------------------------
 --  DDL for Table TABLE5
 --------------------------------------------------------
-
+/*jghjghj*/
   CREATE TABLE "GAURAV"."TABLE5" 
    (	"COLUMN1" VARCHAR2(20 BYTE)
    ) SEGMENT CREATION IMMEDIATE 
